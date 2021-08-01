@@ -12,7 +12,7 @@
 
     @property (nonatomic, weak) IBOutlet NSButton *btnCheck;
     @property (nonatomic, weak) IBOutlet NSTextField *lblResult;
-    @property (nonatomic, weak) IBOutlet NSTextView *txtLicense;
+    @property (nonatomic) IBOutlet NSTextView *txtLicense;
     @property (nonatomic, weak) IBOutlet NSTextField *txtName;
     
 - (void)logMsg2Output: (NSString*)msg;
